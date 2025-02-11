@@ -13,3 +13,6 @@ git push
 or 
 
 use vs code
+
+#start
+11/2/25:-todos in js
