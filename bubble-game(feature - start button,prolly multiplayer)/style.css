@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "SUSE", sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #312f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel {
+    overflow: hidden;
+    height: 90%;
+    width: 80%;
+    background-color: #506060;
+    border-radius: 40px;
+}
+
+#top {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#ele {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 10%;
+}
+
+#box, .box {
+    height: 80%;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#bottom {
+    height: 90%;
+    width: 100%;
+    background-color: #502e2e;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#bottom h1 {
+    font-size: 100px;
+}
+
+.aval:hover {
+    cursor: pointer;
+    background-color: hsl(0, 2%, 63%);
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#bubble {
+    height: 6.9%;
+    width: 3.9%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bubble:hover, #startval:hover {
+    cursor: pointer;
+    background-color: hsl(0, 2%, 63%);
+}
+
+#startval {
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.box1 {
+    height: 100px;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    #panel {
+        width: 90%;
+        height: 95%;
+    }
+
+    #top {
+        height: 15%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #bottom h1 {
+        font-size: 60px;
+    }
+
+    #ele {
+        width: 20%;
+    }
+
+    #box, .box, .box1 {
+        width: 90%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    #bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    a {
+        font-size: 24px;
+    }
+
+    #bubble {
+        height: 10%;
+        width: 10%;
+    }
+
+    #startval {
+        height: 50px;
+    }
+}

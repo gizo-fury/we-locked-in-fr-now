@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "SUSE", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+button {
+    height: 15vh;
+    font-size: 4rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 250px;
+    background-color: rgb(59, 80, 217);
+    transition: ease-in-out 0.1s;
+    margin: 6rem 0.75rem 7rem;
+}
+button:hover{
+    background-color: rgb(59, 59, 230);
+}
+#player{
+    font-size: 3rem;
+}
+#computer{
+    font-size: 3rem;
+}
+#result{
+    margin-top: 4rem;
+    font-size: 3rem;
+}

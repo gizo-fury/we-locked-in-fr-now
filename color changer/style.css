@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "SUSE", sans-serif;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   justify-content: space-evenly;
+   size: 100px;
+}
+
+button {
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+  }
+  #gr{
+    background-color: green;
+  }
+  #re{
+    background-color: red;
+  }
+  #bl{
+    background-color: blue;
+  
+  }
+  
