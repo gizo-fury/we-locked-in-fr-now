@@ -1,5 +1,5 @@
 # we-locked-in-fr-now
-code repo for random projects 
+code repo for random projects(mostly ig webdev ones) 
 
 
 whenever you make changes in VS Code, your dumbass can either:
