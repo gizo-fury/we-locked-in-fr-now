@@ -6,7 +6,7 @@ whenever you make changes in VS Code, your dumbass can either:
 Use the terminal:
 
 
-Copygit add .
+git add .
 git commit -m "Description of your changes"
 git push
 
